@@ -1,0 +1,87 @@
+.behavioral-interview-questions {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .question-card {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .question p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    text-decoration: none; 
+  }
+  .question p:hover{
+    text-decoration: none;
+  }
+  .toggle-answer-btn {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    font-size: 1.1em;
+  }
+  
+  .toggle-answer-btn:hover {
+    background-color: #fff;
+    color: darkblue;
+    text-decoration: none;
+  }
+  
+  .answer {
+    padding-top: 15px;
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .behavioral-interview-questions {
+      padding: 20px;
+    }
+  
+    .questions-list {
+      gap: 15px;
+    }
+  
+    .question-card {
+      padding: 15px;
+    }
+  
+    .toggle-answer-btn {
+      padding: 6px 12px;
+    }
+  }
+  

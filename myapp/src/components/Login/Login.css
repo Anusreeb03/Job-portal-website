@@ -1,0 +1,142 @@
+
+.contain{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.auth-container {
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  min-height: 35vh;
+}
+
+
+.auth-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.auth-header h2 {
+  font-size: 1.6em;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.auth-header h2.active {
+  color: darkblue;
+  border-bottom: 2px solid darkblue;
+}
+
+
+.auth-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1.3em;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  margin: 10px 0;
+  padding: 12px 15px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: darkblue
+}
+
+.auth-button {
+  padding: 14px 20px;
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: transparent;
+  border: 1px solid darkblue;
+  color: darkblue;
+}
+
+.auth-button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .auth-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .auth-button {
+    font-size: 1.1em;
+  }
+
+  .form-group input {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .auth-header {
+    flex-direction: column; 
+    margin-bottom: 20px;
+    line-height: 3;
+  }
+
+  .auth-header h2 {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+
+  .auth-button {
+    font-size: 20px;
+  }
+
+  .form-group input {
+    font-size: 18px;
+  }
+  
+.auth-header h2.active {
+  color: darkblue;
+  background-color: skyblue;
+  border-bottom: none;
+}
+}

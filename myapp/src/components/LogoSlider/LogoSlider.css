@@ -1,0 +1,85 @@
+h2{
+    margin-top: 50px;
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+}
+.logo-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .logos-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .logo-item {
+    margin: 0 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .logo-item img {
+    width: 150px;
+    height: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    .logo-item img {
+      width: 120px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .logo-slider {
+      width: 85%;
+    }
+    .logos-container {
+      justify-content: center;
+    }
+    .logo-item img {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo-slider {
+      width: 90%;
+    }
+    .logos-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .logo-item {
+      margin: 10px 0;
+    }
+    .logo-item img {
+      width: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-slider {
+      width: 100%;
+      padding: 10px 0;
+    }
+    .logos-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .logo-item img {
+      width: 70px;
+    }
+  }
+  

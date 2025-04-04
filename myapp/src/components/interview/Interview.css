@@ -1,0 +1,119 @@
+.interview {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.interview h2 {
+  font-size: 28px;
+  text-align: center;
+  color: darkblue;
+}
+
+.interview ul li {
+  list-style: none;
+}
+
+.interview ul li a {
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.interview ul li a strong {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+.interview ul li p {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+
+@media (max-width: 1024px) {
+  .interview {
+    padding: 20px;
+  }
+
+  .interview h2 {
+    font-size: 26px;
+  }
+
+  .interview ul li a strong {
+    font-size: 1.4rem;
+  }
+
+  .interview ul li p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .interview {
+    padding: 15px;
+  }
+
+  .interview h2 {
+    font-size: 24px;
+  }
+
+  .interview ul li a strong {
+    font-size: 1.3rem;
+  }
+
+  .interview ul li p {
+    font-size: 1.1rem;
+  }
+
+  .interview ul li a {
+    line-height: 1.8; 
+  }
+}
+
+@media (max-width: 480px) {
+  .interview {
+    padding: 10px;
+  }
+
+  .interview h2 {
+    font-size: 22px;
+  }
+
+  .interview ul li a strong {
+    font-size: 1.2rem;
+  }
+
+  .interview ul li p {
+    font-size: 1rem;
+  }
+
+  .interview ul li a {
+    line-height: 1.6; 
+  }
+}
+
+@media (max-width: 320px) {
+  .interview {
+    padding: 8px;
+  }
+
+  .interview h2 {
+    font-size: 20px;
+  }
+
+  .interview ul li a strong {
+    font-size: 1.1rem;
+  }
+
+  .interview ul li p {
+    font-size: 0.9rem;
+  }
+
+  .interview ul li a {
+    line-height: 1.5;
+  }
+}
